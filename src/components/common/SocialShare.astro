@@ -42,4 +42,9 @@ const { text, url, class: className = 'inline-block' } = Astro.props;
       class="w-6 h-6 text-gray-400 dark:text-slate-500 hover:text-black dark:hover:text-slate-300"
     />
   </button>
+  <button class="ml-2 rtl:ml-0 rtl:mr-2" title="Phone Share" data-aw-social-share="phone" data-aw-url={url} data-aw-text={text}
+    ><Icon
+      name="tabler:phone"
+      class="w-6 h-6 text-gray-400 dark:text-slate-500 hover:text-black dark:hover:text-slate-300"
+    />
 </div>
