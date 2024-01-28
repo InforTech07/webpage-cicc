@@ -3,28 +3,28 @@ import { getPermalink, getBlogPermalink } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Homes',
+      text: 'Conoce el CICC',
       links: [
         {
-          text: 'SaaS',
+          text: '¿Quiénes somos?',
           href: getPermalink('/homes/saas'),
         },
         {
-          text: 'Startup',
+          text: 'Misión y Visión',
           href: getPermalink('/homes/startup'),
         },
         {
-          text: 'Mobile App',
+          text: 'Historia',
           href: getPermalink('/homes/mobile-app'),
         },
         {
-          text: 'Personal',
+          text: 'Organigrama',
           href: getPermalink('/homes/personal'),
         },
       ],
     },
     {
-      text: 'Pages',
+      text: 'Investigación',
       links: [
         {
           text: 'Features (Anchor Link)',
@@ -57,7 +57,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Landing',
+      text: 'Recursos',
       links: [
         {
           text: 'Lead Generation',
@@ -86,7 +86,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Blog',
+      text: 'Galería',
       links: [
         {
           text: 'Blog List',
@@ -111,11 +111,15 @@ export const headerData = {
       ],
     },
     {
-      text: 'Widgets',
+      text: 'Ayudar',
+      href: '#',
+    },
+    {
+      text: 'Contacto',
       href: '#',
     },
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
+  actions: [{ text: 'Cursos', href: '#', target: '_blank' }],
 };
 
 export const footerData = {
